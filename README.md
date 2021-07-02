@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
 
+This project is based upon the instructions in the Okta Developer Portal article [Build Secure Login for Your Angular App](https://developer.okta.com/blog/2019/02/12/secure-angular-login#add-authentication-to-your-angular-app). Almost all of the code is taken from that article.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
