@@ -2,9 +2,15 @@
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+// Issuer:    https://dev-69099605.okta.com/oauth2/default
+// Client ID: 0oa14wav3ltPrBuHd5d7
 export const environment = {
-  production: false
-};
+  production: false,
+  okta: {
+    clientId: '0oa14wav3ltPrBuHd5d7',
+    domain: 'dev-69099605.okta.com',
+  },
+}
 
 /*
  * For easier debugging in development mode, you can import the following file
